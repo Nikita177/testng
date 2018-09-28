@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45" started-at="2018-09-28T20:21:46Z" finished-at="2018-09-28T20:21:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="45" started-at="2018-09-28T20:21:46Z" finished-at="2018-09-28T20:21:46Z">
+      <class name="test.Parallel">
+        <test-method status="PASS" signature="browser()[pri:0, instance:test.Parallel@27f53ee3]" name="browser" is-config="true" duration-ms="10" started-at="2018-09-28T20:21:46Z" finished-at="2018-09-28T20:21:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="bClass()[pri:0, instance:test.Parallel@27f53ee3]" name="bClass" is-config="true" duration-ms="1" started-at="2018-09-28T20:21:46Z" finished-at="2018-09-28T20:21:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bClass -->
+        <test-method status="PASS" signature="btest()[pri:0, instance:test.Parallel@27f53ee3]" name="btest" is-config="true" duration-ms="1" started-at="2018-09-28T20:21:46Z" finished-at="2018-09-28T20:21:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:test.Parallel@27f53ee3]" name="test" duration-ms="4" started-at="2018-09-28T20:21:46Z" finished-at="2018-09-28T20:21:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="aTest()[pri:0, instance:test.Parallel@27f53ee3]" name="aTest" is-config="true" duration-ms="1" started-at="2018-09-28T20:21:46Z" finished-at="2018-09-28T20:21:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aTest -->
+        <test-method status="PASS" signature="btest()[pri:0, instance:test.Parallel@27f53ee3]" name="btest" is-config="true" duration-ms="0" started-at="2018-09-28T20:21:46Z" finished-at="2018-09-28T20:21:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:test.Parallel@27f53ee3]" name="test2" duration-ms="3" started-at="2018-09-28T20:21:46Z" finished-at="2018-09-28T20:21:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="aClass()[pri:0, instance:test.Parallel@27f53ee3]" name="aClass" is-config="true" duration-ms="0" started-at="2018-09-28T20:21:46Z" finished-at="2018-09-28T20:21:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aClass -->
+        <test-method status="PASS" signature="aTest()[pri:0, instance:test.Parallel@27f53ee3]" name="aTest" is-config="true" duration-ms="0" started-at="2018-09-28T20:21:46Z" finished-at="2018-09-28T20:21:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:test.Parallel@27f53ee3]" name="quit" is-config="true" duration-ms="0" started-at="2018-09-28T20:21:46Z" finished-at="2018-09-28T20:21:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- test.Parallel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
