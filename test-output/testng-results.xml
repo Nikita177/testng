@@ -2,19 +2,23 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12324" started-at="2018-09-29T01:59:21Z" finished-at="2018-09-29T01:59:33Z">
+  <suite name="Default suite" duration-ms="14938" started-at="2018-09-29T02:15:27Z" finished-at="2018-09-29T02:15:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12324" started-at="2018-09-29T01:59:21Z" finished-at="2018-09-29T01:59:33Z">
+    <test name="Default test" duration-ms="14938" started-at="2018-09-29T02:15:27Z" finished-at="2018-09-29T02:15:42Z">
       <class name="test.VerifyText">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.VerifyText@65010ce3]" name="openBrowser" is-config="true" duration-ms="12095" started-at="2018-09-29T01:59:21Z" finished-at="2018-09-29T01:59:33Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.VerifyText@54038f36]" name="openBrowser" is-config="true" duration-ms="13328" started-at="2018-09-29T02:15:27Z" finished-at="2018-09-29T02:15:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="verifyText()[pri:0, instance:test.VerifyText@65010ce3]" name="verifyText" duration-ms="199" started-at="2018-09-29T01:59:33Z" finished-at="2018-09-29T01:59:33Z">
+        <test-method status="PASS" signature="verifyText()[pri:0, instance:test.VerifyText@54038f36]" name="verifyText" duration-ms="130" started-at="2018-09-29T02:15:40Z" finished-at="2018-09-29T02:15:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyText -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:test.VerifyText@54038f36]" name="quit" is-config="true" duration-ms="1450" started-at="2018-09-29T02:15:40Z" finished-at="2018-09-29T02:15:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
       </class> <!-- test.VerifyText -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

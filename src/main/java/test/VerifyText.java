@@ -2,7 +2,9 @@ package test;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.Color;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -20,8 +22,19 @@ public class VerifyText {
 	
 	@Test
 	public void verifyText(){
-		String color=dir.findElement(By.id("loginlink")).getCssValue("color");
-	System.out.println("Color is "+color);	
+		WebElement log =dir.findElement(By.id("loginlink"));
+		String color=log.getCssValue("color");
+	System.out.println("Color is  "+color);	
+	String hexColor=Color.fromString(color).asHex();
+	System.out.println(hexColor);
+	if ("#4d90fe".equals(hexColor)){
+		System.out.println("Its blue color");
+	}
+	
+	int x=log.getLocation().getX();
+	int y=log.getLocation().getY();
+	System.out.println("The y and Z location for log is :"+x+" "+y);
+	
 	}
 	
 	@AfterTest
